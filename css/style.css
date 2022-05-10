@@ -68,10 +68,11 @@ a:visited {
 }
 
 .nav__item {
-  position: relative;
+  /* position: relative; */
 }
 
 .nav__item:not(:last-child) {
+  position: relative;
   margin-right: 85px;
 }
 
@@ -90,16 +91,21 @@ a:visited {
   border-bottom: 2px solid #ff9900;
 }
 
-.nav__item a:focus {
-  padding: 5px;
-  outline: #ff9900 solid 2px;
+.nav__item a:focus::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: calc(100%x);
+  height: calc(100%);
+  background-color: aqua;
+  border: 2px solid #ff9900;
 }
 
 .nav__item a:active {
   display: block;
   padding-bottom: 7px;
   color: #e1670e;
-  /* background-color: #E1670E; */
   border-bottom: 2px solid #e1670e;
 }
 
