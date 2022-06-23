@@ -1,0 +1,24 @@
+{
+  "name": "Evklid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./script",
+    "lint:fix": "eslint ./script --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexey-Klimavtsov/Evklid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexey-Klimavtsov/Evklid/issues"
+  },
+  "homepage": "https://github.com/Alexey-Klimavtsov/Evklid#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
